@@ -1,0 +1,62 @@
+.heading {
+    margin: 30px 35%;
+    background-color: rgba(29, 77, 1, 0.986);
+    color : white;
+}
+
+.sub-heading {
+    margin: 30px 40%;
+    background-color: rgba(29, 77, 1, 0.986);
+    color : white;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1a1a2e;
+    color: white;
+    background-image:url("https://www.arkatechnews.com/wp-content/uploads/2020/03/G2VQ2CL9j4w6Jv5z3QwjuN.jpg")
+}
+
+h1 {
+    color: #ffcc00;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid white;
+    background-color: #333;
+    margin: 5px;
+}
+
+.green { background-color: #4CAF50; } /* ถูกต้อง */
+.yellow { background-color: #FFC107; } /* มีในคำตอบแต่ตำแหน่งผิด */
+.gray { background-color: #555; } /* ไม่มีในคำตอบ */
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
